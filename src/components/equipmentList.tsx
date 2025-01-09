@@ -86,7 +86,7 @@ function EquipmentList() {
                     placeholder="Search..."
                 />
                 <select className="form-select mt-1 block w-full" value={category} onChange={handleCategoryChange}>
-                    <option value=""><em>All Categories</em></option>
+                    <option value="">All Categories</option>
                     <option value="Electronics">Electronics</option>
                     <option value="Furniture">Furniture</option>
                     <option value="Office Supplies">Office Supplies</option>
